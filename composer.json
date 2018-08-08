@@ -1,5 +1,5 @@
 {
-	"name": "johnpbloch/wordpress-core-installer",
+	"name": "realwp/wordpress",
 	"description": "A custom installer to handle deploying WordPress with composer",
 	"keywords": [
 		"wordpress"
@@ -10,8 +10,8 @@
 	"prefer-stable": true,
 	"authors": [
 		{
-			"name": "John P. Bloch",
-			"email": "me@johnpbloch.com"
+			"name": "Mehrshad Darzo",
+			"email": "realwp.ir@gmail.com"
 		}
 	],
 	"autoload": {
