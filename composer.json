@@ -25,11 +25,14 @@
 		}
 	},
 	"extra": {
-		"class": "johnpbloch\\Composer\\WordPressCorePlugin"
+		"class": "johnpbloch\\Composer\\WordPressCorePlugin",
+		"wordpress-install-dir": "wordpress"
 	},
 	"require": {
+		"johnpbloch/wordpress-core-installer": "^1.0",
 		"composer-plugin-api": "^1.0"
 	},
+	"type": "wordpress-core",
 	"require-dev": {
 		"composer/composer": "^1.0",
 		"phpunit/phpunit": ">=4.8.35"
